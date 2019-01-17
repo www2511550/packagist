@@ -1,0 +1,19 @@
+{
+    "name": "chengcong/hello",
+    "description": "test composer pack",
+    "type": "License []: MIT",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "C C",
+            "email": "cc@example.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "TestDemo\\":"src/"
+        }
+    }
+}
